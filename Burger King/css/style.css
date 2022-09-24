@@ -1,0 +1,384 @@
+html {
+    font-family: 'Tajawal', sans-serif;
+    color: #333;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/back.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 20px;
+    height: 100px;
+}
+
+.b-nav {
+    background-color: rgba(51, 51, 51, 0.63);
+    border-radius: 10px;
+}
+
+.main-nav {
+    list-style: none;
+
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.716);
+    border-radius: 5px;
+}
+
+.hero {
+    position: absolute;
+    top: 40%;
+
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 300px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin-top: 15px;
+}
+
+.btn {
+    border: solid 1px orange;
+    margin-right: 15px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: orange;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: white;
+    background-color: orange;
+
+
+}
+
+section {
+    padding: 40px 0px;
+}
+
+section div h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 200px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    background-color: orange;
+    width: 100px;
+    height: 5px;
+    margin: 20px auto;
+}
+
+/* hr{
+    width: 80px;
+    background-color: orange;
+    border: solid 2px orange;
+} */
+
+.features-desc {
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.features {
+    text-align: center;
+}
+
+.features p {
+    text-align: justify;
+    text-align-last: center;
+}
+
+
+
+.features i {
+    text-align: center;
+    color: orange;
+    font-size: 50px;
+}
+
+
+.meal {
+    padding: 0px;
+    margin-bottom: -5px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.meal img {
+    width: 100%;
+    opacity: .6;
+    transform: scale(2);
+
+}
+
+.meal img:hover {
+    opacity: 1;
+    transition: 2s;
+    transform: scale(1);
+}
+
+
+.ju {
+    background-color: rgba(255, 166, 0, 0.698);
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 327px;
+
+}
+
+
+.ju img {
+    width: 100%;
+    height: 300px;
+    transform: scale(1);
+    
+
+}
+
+.ju img:hover {
+    transform: scale(1.25);
+    transition: 2s;
+}
+
+.app-img img {
+    width: 40%;
+    margin-left: 300px;
+}
+
+.right-text ul {
+    list-style-type: none;
+    text-align-last: center;
+    margin-top: 80px;
+    margin-bottom: 180px;
+}
+
+.img1-download {
+    width: 110px;
+}
+
+.span1 {
+    border: 2px solid orange;
+    border-radius: 50px 50px 50px 50px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    color: orange;
+}
+
+/* .city-img{
+    overflow: hidden;
+} */
+
+.city img {
+    width: 100%;
+    border-radius: 10px;
+    /* opacity: 0.8;
+    transform: scale(2); */
+
+}
+
+/* .city img:hover{
+    opacity: 1;
+    transform: scale(1);
+    transition: 3s;
+} */
+
+
+.city-info {
+    margin-bottom: 10px;
+}
+
+.city-info i {
+    color: orange;
+    margin-right: 10px;
+}
+
+
+
+#testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#testimonials i {
+    font-size: 50px;
+}
+
+#testimonials p {
+    line-height: 1.5;
+    text-align: justify;
+    text-align-last: center;
+}
+
+#testimonials img {
+    width: 70px;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+    /* opacity: .6; 
+    transform: scale(2); */
+}
+
+/* #testimonials img:hover{
+    opacity: 1;
+    transition: 2s;
+    transform: scale(1);
+} */
+
+#plans {
+    background-color: rgba(194, 194, 194, 0.595);
+
+}
+
+.plan {
+    background-color: white;
+    border-radius: 10px;
+    width: 310px;
+    height: 420px;
+    margin: 70px;
+}
+
+.plan:hover {
+    border: solid 1px orange;
+}
+
+.plan p {
+    color: rgba(51, 51, 51, 0.495);
+}
+
+.plan h3 {
+    color: orange;
+    font-size: 40px;
+
+}
+
+.plan ul {
+    list-style: url(../images/check.png);
+}
+
+.plan a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+.plan a:hover {
+    background-color: orange;
+}
+
+
+
+
+.bg {
+    background-color: rgba(194, 194, 194, 0.595);
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+select,
+input[type=text],
+input[type=email],
+input[type=textarea] {
+    width: 100%;
+    margin-bottom: 30px;
+    /* outline: none; */
+}
+
+#check {
+    margin-bottom: 10px;
+
+}
+
+button {
+    background-color: orange;
+    padding: 7px 20px;
+    margin-top: 10px;
+    color: white;
+    font-size: medium;
+    font-weight: 200;
+    border-radius: 10px;
+    border: solid 1px orange;
+}
+
+button:hover {
+    border: solid 1px orangered;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.831);
+    padding: 40px 0px;
+    color: rgba(255, 255, 255, 0.745);
+}
+
+footer p {
+    text-align: center;
+}
+
+.footer-nav,
+.social-nav {
+    list-style: none;
+    display: flex;
+
+}
+
+.footer-nav a,
+.social-nav a {
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.745);
+    text-decoration: none;
+}
+
+.social-nav {
+    float: right;
+}
+
+span {
+    color: rgba(255, 166, 0, 0.436);
+}
